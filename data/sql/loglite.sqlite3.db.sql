@@ -189,7 +189,7 @@ CREATE TABLE loggix_log (
 #
 INSERT INTO loggix_log (id, title, href, comment, text_mode, excerpt, date, mod, draft, ping_uri, allow_comments, allow_pings) VALUES ('1', 'Welcome!', NULL, '<img src="./theme/images/loggix-logo.png" alt="Loggix" />
 
-This is the first entry.', NULL, NULL, '2009-07-28 00:00:00', '2009-07-28 00:00:00', '0', NULL, '1', '1');
+This is the first entry.', NULL, NULL, '2018-12-11 00:00:00', '2018-12-11 00:00:00', '0', NULL, '1', '1');
 # --------------------------------------------------------
 
 

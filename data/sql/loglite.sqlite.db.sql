@@ -8,7 +8,7 @@ CREATE TABLE loggix_user (
   user_date,
   user_status INTEGER DEFAULT 0
 );
-INSERT INTO loggix_user VALUES(1,'root','dc76e9f0c0006e8f919e0c515c66dbba3982f785','root','admin@example.com','2009-07-27 00:00:00',0);
+INSERT INTO loggix_user VALUES(1,'root','dc76e9f0c0006e8f919e0c515c66dbba3982f785','root','admin@example.com','2018-12-11 00:00:00',0);
 CREATE TABLE loggix_config (
   config_key PRIMARY KEY,
   config_value

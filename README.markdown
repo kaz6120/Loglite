@@ -1,4 +1,4 @@
-Loggix : A Really simple PHP + SQLite/MySQL driven blogging engine.
+LogLite : A Really simple PHP + SQLite driven blogging system.
 =============================================================
 
 ## HOW TO START LOGGIX ##
@@ -18,7 +18,4 @@ Loggix : A Really simple PHP + SQLite/MySQL driven blogging engine.
 
 ## License ##
 
-Loggix is an open sources software lisenced under New BSD Lisence.
-
-- [Open Source Initiative OSI - The BSD License:Licensing](http://www.opensource.org/licenses/bsd-license.php)
-
+LogLite is an open sources software lisenced under MIT Lisence.
