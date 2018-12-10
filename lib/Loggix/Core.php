@@ -70,7 +70,7 @@ class Loggix_Core
     const LOGGIX_PLUGIN_DIR       = '/plugins/';
     const LOGGIX_THEME_DIR        = '/theme/';
     const LOGGIX_TITLE_SEPARATOR  = ' : ';
-    const LOGGIX_PROJ_URI         = 'https://github.com/kaz6120/Loggix';
+    const LOGGIX_PROJ_URI         = 'https://github.com/kaz6120/loglite';
     const LOGGIX_VERSION          = '18.12.11';
 
 
