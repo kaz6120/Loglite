@@ -1,20 +1,20 @@
-LogLite : A Really simple PHP + SQLite driven blogging system.
+LogLite : A Super Simple PHP + SQLite driven Blogging System.
 =============================================================
 
-## HOW TO START LOGGIX ##
+## HOW TO START LOGLITE ##
 
-1. Change permission of "data" folder executable and editable.
-2. Access "/admin/login.php".
+1. Change the permission of "data" folder executable and editable.
+2. Access "your-URL-to-logilite/admin/login.php" with your web browser.
 3. Login as user:**root** password:**root**.
 4. Create your new account and login again with the new one.
 5. Delete the original **root** account.
-6. That's it! You're ready to Loggix. Enjoy!
+6. That's it! You're ready to LogLite. Enjoy!
 
 ## System Requirements ##
 
-- OS independent. (Tested on OS X and Ubuntu Linux)
+- OS independent. (Tested on macOS and Ubuntu Linux)
 - PHP5.3 or later with SQLite enabled.
-- SQLite3 is the default database engine. You can also use SQLite2 or MySQL(You need to edit Core.php).
+- SQLite3 is the default database. You can also use SQLite2 or MySQL(You need to edit Core.php).
 
 ## License ##
 
