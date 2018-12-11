@@ -16,30 +16,27 @@ function showSamplesMenu($text)
         case 'japanese':
             $textParts = array(
                 'マニュアル',
-                'このメニューを消すには、「/plugin/」フォルダにある「showSamplesMenu」プラグインを削除するか「/plugin/off/」フォルダに移動してください。'
+                ''
             );
             break;
         default:
             $textParts = array(
                 'Manual',
-                'Delete or Remove "/plugins/showSamplesMenu.php" plugin to "/plugins/off" folder to disable this menu.'
+                ''
             );
             break;
     }
 
-    return '<h2>References</h2>
+    return '<h2>Admin</h2>
 <ul class="menu">
 <li id="admin-login">
 <a href="' . $pathToIndex . '/admin/login.php">Login</a>
 </li>
 <li id="manual">
-<a href="' . $pathToIndex . '/modules/manual/" title="Show LogLite Manual" class="menu">
+<a href="' . $pathToIndex . '/modules/manual/" class="menu">
 LogLite ' . $textParts[0] . '
 </a>
 </li>
 </ul>
-<div class="important warning">
-(&uarr;) ' . $textParts[1] . '
-</div>
 ' . $text;
 }
