@@ -1,7 +1,10 @@
 <?php
 // Create a new image
-$newCanvas = imagecreatetruecolor(200, 200);
-imageantialias($newCanvas, true);
+// $newCanvas = imagecreatetruecolor(200, 200);
+// imageantialias($newCanvas, true);
+
+$newCanvas = imagecreate(200, 200);
+//imageantialias($newCanvas, true);
 
 // text Settings
 $text_0 = 'LogLite';
