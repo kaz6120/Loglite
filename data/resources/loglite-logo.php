@@ -16,16 +16,6 @@ $lineColor = imagecolorallocate($newCanvas, 153, 255, 51);
 
 
 //bool imagestring ( resource $image , int $font , int $x , int $y , string $string , int $color )
-// // 描画する文字列
-// $text = 'Testing...';
-// // フォント自身のパスでパスを置き換えます
-// $font = './ipaexg.ttf';
-// // テキストに影を付けます
-// imagettftext($newCanvas, 20, 0, 11, 21, $textColor, $font, $text);
-// // テキストを追加します
-// imagettftext($newCanvas, 5, 10, 10, 20, $textColor, $font, $text);
-
-
 imagestring($newCanvas, 5, 70, 75, $text_0, $textColour);
 imagestring($newCanvas, 2, 30, 105, $text_1, $textColour);
 
