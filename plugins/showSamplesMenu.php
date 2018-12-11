@@ -33,8 +33,8 @@ function showSamplesMenu($text)
 <a href="' . $pathToIndex . '/admin/login.php">Login</a>
 </li>
 <li id="manual">
-<a href="' . $pathToIndex . '/modules/manual/" title="Show Loggix Manual" class="menu">
-Loggix ' . $textParts[0] . '
+<a href="' . $pathToIndex . '/modules/manual/" title="Show LogLite Manual" class="menu">
+LogLite ' . $textParts[0] . '
 </a>
 </li>
 </ul>

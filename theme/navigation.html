@@ -12,7 +12,7 @@
 <input type="hidden" name="p" value="0" />
 <input type="hidden" name="pn" value="1" />
 <input type="hidden" name="ex" value="1" />
-<!-- 
+<!--
 <input type="submit" value="<?php echo $lang['search']?>" />
 -->
 </p>
@@ -26,13 +26,7 @@
 <p id="show-all-comments">
 <a href="<?php echo $this->getDir()?>/modules/comment/" title="<?php echo $lang['show_all_comments']?>"><?php echo $lang['show_all']?> &#187;</a>
 </p>
-<h2>Recent Trackbacks</h2>
-<ul id="recent-trackbacks"><?php echo $module['LM']['trackback']['recent']?></ul>
-<p id="show-all-trackbacks">
-<a href="<?php echo $this->getDir()?>/modules/trackback/" title="<?php echo $lang['show_all_trackbacks']?>"><?php echo $lang['show_all']?> &#187;</a>
-</p>
-<h2>Syndication</h2>
-<?php echo $module['LM']['RSS']['link']?>
+
 <h2>Switch Style</h2>
 <form id="css-form" action="<?php echo $_SERVER['PHP_SELF']?>?<?php echo $_SERVER['QUERY_STRING']?>" method="post">
 <div>
@@ -68,4 +62,3 @@ No tags yet
 <?php endif?>
 </p>
 </div>
-
