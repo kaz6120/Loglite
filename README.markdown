@@ -1,4 +1,4 @@
-LogLite : A Super Simple PHP + SQLite driven Blogging System.
+LogLite : Super Simple PHP + SQLite driven Blog System.
 =============================================================
 
 ## HOW TO START LOGLITE ##
