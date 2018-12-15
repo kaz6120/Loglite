@@ -1,8 +1,4 @@
 <div id="content-menu">
-<h2>Contents</h2>
-<ul class="menu">
-<?php echo $item['content_list']?></ul>
-</div>
 <div class="menu" id="search">
 <h2><label for="keyword">Search</label></h2>
 <form method="get" action="<?php echo $item['search_dir']?>/index.php">
@@ -12,11 +8,15 @@
 <input type="hidden" name="p" value="0" />
 <input type="hidden" name="pn" value="1" />
 <input type="hidden" name="ex" value="1" />
-<!--
-<input type="submit" value="<?php echo $lang['search']?>" />
--->
+  <!--
+  <input type="submit" value="<?php echo $lang['search']?>" />
+  -->
 </p>
 </form>
+</div>
+<h2>Contents</h2>
+<ul class="menu">
+<?php echo $item['content_list']?></ul>
 </div>
 <?php echo $item['admin']['menu']?>
 <h2>Calendar</h2>
