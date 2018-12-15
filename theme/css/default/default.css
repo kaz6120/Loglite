@@ -67,11 +67,14 @@ body {
     /* background: transparent url(./images/header-1.png) top repeat-x; */
     /* background: #83ad23; */
     text-align: center;
-    font: 100%/180% Georgia, Times, Bitstream Vera, "Hiragino Mincho Pro", serif;
-    /* line-height: 180%;
-    font-size: 1em;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO", sans-serif; */
-    color: #000000;
+    /* font: 0.875em/180% Georgia, Times, Bitstream Vera, "Hiragino Mincho Pro", serif; */
+    /* font: 100%/180% Georgia, Times, Bitstream Vera, "Hiragino Mincho Pro", serif; */
+
+    /* font: 0.875em/180% "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO", sans-serif; */
+    font-size; 1em;
+    line-height: 180%;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", Arial, sans-serif;
+    color: #535353;
 }
 
 #wrapper {
@@ -85,7 +88,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 /*
@@ -101,7 +104,7 @@ body {
     padding: 0.5em 2em;
 
     width: 100%;
-    height: 50px;
+    height: 45px;
     position: fixed;
     background-color: #83ad23;
     /* justify-content: space-between; */
@@ -115,7 +118,8 @@ body {
 } #header h1 {
     margin: 10px;
     padding: 0;
-    font-weight: bold;
+    /* font-weight: bold; */
+    /* font-family: 　　Arial, sans-serif; */
     text-shadow: #336600 1px 2px 2px;
 } #header h1 a {
     color: #ffffff;
@@ -147,11 +151,11 @@ body {
     max-width:1200px;
     min-width:480px; */
     width: 90%; /* in small screen show in width of 90% */
-    max-width: 960px; /* Never bigger than this in big screeen. */
-    min-width: 480px; /* Never smaller than this in small screen. */
+    max-width: 768px; /* Never bigger than this in big screeen. */
+    min-width: 320px; /* Never smaller than this in small screen. */
 
     text-align: left;
-    font-family: "Bitstrema Vera Sans", Arial, "Lucida Grande", sans-serif;
+    /* font-family: "Bitstrema Vera Sans", Arial, "Lucida Grande", sans-serif; */
 } #content div {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
